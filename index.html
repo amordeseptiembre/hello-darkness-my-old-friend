@@ -1,19 +1,44 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title> amordeseptiembre </title>
-		<style> 
-		h1 {
-			color: blue;
-			margin: 20px 40px 60px 10px;
+<head>
+	<title>Nav Bar Practice</title>
+	<style>
+		body {
+			margin: 0;
 		}
-		</style>
-	</head>
-	<h1> Hello, Sean </h1>
-	<h3> My Love </h3>
-	<h5> Hello Darkness My Old Friend</h5>
+		.navbar {
+			max-height: 100px;
+			min-height: 100px;
+			font-family: cursive;
+			font-size: 20px;
+			padding-top: 50px;
+			text-align: center;
+		}
+		#navbar1 {
+			border: 3px solid red;
+			background: salmon;
+			position: absolute; 
+			color: darkred;
+			top: 0;
+			left: 0;
+			width: 100vw;
+		}
+		#navbar2 {
+			border: 3px dashed blue;
+			background: lightblue;
+			color: white;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100vw;
 
-	<p> I've come to code with you again  
-		<span> Blondie </span> 
-	</p>
+		}
+	</style>
+</head>
+<body>
 
+	<div class="navbar" id="navbar1">Love</div>
+	<div class="navbar" id="navbar2">Hurts</div>
+
+</body>
 </html>
